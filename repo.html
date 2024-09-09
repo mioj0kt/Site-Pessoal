@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositório</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+            background-color: white;
+        }
+    </style>
+    <main class="mx-2 my-2 bg-info-subtle border border-info border-bottom-0 rounded">
+        <h1 id="titulo" class="m-3 text-center">Detalhe do Repositório</h1>
+        <main class="bg-white mx-2 p-3 rounded">
+            <!-- Menu Superior -->
+            <nav class="container">
+                <nav class="row text-center">
+                    <nav class="col-md-6 mb-3 mb-md-0">
+                        <button class="border-0 bg-secondary-subtle mt-2 p-3 px-md-5 rounded">
+                            <h3><a href="index.html" class="text-black text-decoration-none">MATHEUS</a></h3>
+                        </button>
+                    </nav>
+                </nav>
+            </nav>
+            </nav>
+            <!-- Fim da Menu Superior -->
+
+            <!-- Repositório -->
+            <article class="m-3 pt-3">
+                <div class="my-3 mb-4">
+                    <h3>Repositório: <span id="repo-name"></span> </h3>
+                    <hr>
+                </div>
+                <h6 class="text-primary">Descrição</h6>
+                <p id="repo-description"></p>
+
+                <div>
+                    <p id="estrela_info" class="float-end d-inline"></p>
+                    <img id="estrela" src="assets/imgs/estrela.png" width="43px">
+                </div>
+
+                <h6 class="text-primary">Data de Criação</h6>
+                <p id="repo-date"></p>
+
+                <h6 class="text-primary">Linguagem</h6>
+                <p id="repo-language"></p>
+
+                <h6 class="text-primary">Link de Acesso</h6>
+                <p id="repo-link-text"></p>
+
+                <a id="repo-btn" href="#" target="_blank" class="btn btn-primary float-end d-inline">Ver no GitHub</a>
+                </div>
+            </article>
+            <!-- Fim do Repositório -->
+        </main>
+    </main>
+    <script src="assets/js/repo.js"></script>
+</body>
+
+</html>
