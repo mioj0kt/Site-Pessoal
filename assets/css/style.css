@@ -1,0 +1,47 @@
+@media (min-width: 554px) { /* Ícone das pesoas que visitaram a seção 1 para telas maiores */   
+#user_elements /*Div que está presente o ícone e o número de views*/ {
+    position: relative;
+}
+#user {
+    position: absolute;
+    right: 100px;
+    top:12px;
+}
+#followers{
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    font-size: 35px;
+}
+}
+/* Para repositórios*/
+@media (min-width: 414px){
+#estrela{
+    position: absolute;
+    right: 200px;   
+}
+#estrela_info{
+    position: absolute;
+    right: 175px;
+    font-size: 28px;
+}
+#repo-btn{
+    position: absolute;
+    right: 150px;
+}
+}
+@media (max-width: 413px) {
+    #estrela{
+        position: absolute;
+        right: 105px;
+    }
+    #estrela_info{
+        position: absolute;
+        right: 85px;
+        font-size: 23px;
+    }
+    #repo-btn{
+        position: absolute;
+        right: 100px;
+    }
+}
