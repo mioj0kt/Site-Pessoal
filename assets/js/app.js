@@ -24,8 +24,12 @@ fetch(apiUrl)
     if (data.twitter_username) {
       const twitterLink = `https://twitter.com/${data.twitter_username}`;
       document.getElementById('twitter-link').href = twitterLink;
-    }
-    //adicionando instagram manualmente pois a API do github não tem
+    }    
+
+    //adicionando instagram e linkedin manualmente
+    const linkedinLink = 'https://www.linkedin.com/in/matheus-felipe-2a237b24a/';
+    document.getElementById('linkedin-link').href = linkedinLink;
+
     const instagramLink = 'https://www.instagram.com/matheguy.png';
     document.getElementById('instagram-link').href = instagramLink;
 
