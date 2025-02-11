@@ -20,6 +20,6 @@ Este repositório contém o código-fonte do meu site pessoal, que integra com a
 
 Este site faz requisições à API do GitHub para buscar os dados públicos do meu perfil e exibir os repositórios diretamente na página. Os dados são atualizados em tempo real com cada visita.
 
-### Link para acessá-lo 🔗
+## Link para acessá-lo 🔗
 
 https://mioj0kt.github.io/Site-Pessoal/
